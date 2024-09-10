@@ -25,7 +25,7 @@ dependencies {
     implementation 'org.spongepowered:configurate-yaml:4.1.2'
 }
 
-def targetJavaVersion = 22
+def targetJavaVersion = 17
 java {
     toolchain.languageVersion = JavaLanguageVersion.of(targetJavaVersion)
 }
